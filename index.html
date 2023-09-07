@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Open+Sans:wght@300;500&family=Poppins:wght@500&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Portfolio</title>
+  </head>
+  <body>
+    <nav
+      class="navbar navbar-expand-lg shadow px-5 position-fixed bg-white z-index-3 top-0 start-0 w-100"
+      style="z-index: 10"
+    >
+      <div class="container-fluid">
+        <a class="navbar-brand text-primary fw-bolder fs-3" href="#profile">
+          Portfolio
+        </a>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="fa fa-bars text-bg-primary"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-end"
+          id="navbarNav"
+        >
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a
+                class="nav-link active fs-5 fw-semibold me-3"
+                aria-current="page"
+                href="#about"
+                >About</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fs-5 fw-semibold me-3" href="#Experience"
+                >Experience</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fs-5 fw-semibold me-3" href="#Projects"
+                >Projects</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fs-5 fw-semibold me-3" href="#Contact"
+                >Contact</a
+              >
+            </li>
+            <li class="nav-item ms-lg-4">
+              <label class="switch">
+                <input type="checkbox" id="checkbox" />
+                <span class="slider"></span>
+              </label>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <section
+      class="row align-items-center justify-content-evenly m-5 pt-5 mx-auto"
+      id="profile"
+    >
+      <div
+        class="col-10 col-md-4 align-content-center mb-sm-1 mb-5 shadow rounded-4 p-5"
+        data-bs-theme="dark"
+      >
+        <p class="text-center fs-4 fw-light">Hello i'm</p>
+        <h1 class="text-center mb-2 fs-2 fw-bolder mb-3">Houssam Zeghmar</h1>
+        <h2 class="text-center text-secondary">
+          <span class="type"></span>
+        </h2>
+        <div class="grid gap-2 d-md-block mt-4 text-center mb-3">
+          <button
+            type="button"
+            class="g-col-4 g-start-1 btn btn-outline-primary px-4 rounded-pill mb-2 mb-sm-0"
+          >
+            Dawnload CV
+          </button>
+          <button
+            type="button"
+            class="g-col-4 g-start-7 btn btn-outline-secondary px-4 rounded-pill mb-2 mb-sm-0"
+          >
+            Contact info
+          </button>
+        </div>
+        <div class="grid gap-2 d-md-block mt-4 text-center">
+          <i class="fa-brands fa-linkedin fa-beat fa-2x me-3"> </i>
+
+          <i class="fa-brands fa-github fa-beat fa-2x">
+            <a href="https://www.linkedin.com/in/houssam-zeghmar-417a54225/"></a
+          ></i>
+        </div>
+      </div>
+      <div class="col-10 col-lg-4 text-center">
+        <img
+          src="/assets/user.jpg"
+          alt="user"
+          width="400"
+          height="350"
+          class="img rounded-4 shadow img-fluid border-5 border-end border-primary"
+        />
+      </div>
+    </section>
+
+    <section class="about my-5 w-75 mx-auto pt-5" id="about">
+      <div class="header text-center my-5">
+        <h4 class="text-secondary fs-5 fw-light">Get The Know More</h4>
+        <h1 class="mt-3 fw-bolder lh-lg p-2">About Me</h1>
+      </div>
+      <div class="container-fluid">
+        <div class="row gap-5">
+          <div class="col-lg-4 text-center">
+            <h1>
+              <img
+                src="/assets/About.jpg"
+                alt="user"
+                width="400"
+                height="600"
+                class="img rounded-4 shadow img-fluid"
+              />
+            </h1>
+          </div>
+          <div class="col-lg-7 shadow rounded-4">
+            <div>
+              <div
+                class="d-flex text-center justify-content-evenly flex-column flex-md-row"
+              >
+                <div
+                  class="border p-2 m-3 px-md-5 py-md-3 rounded-4 m-md-5 shadow"
+                >
+                  <i
+                    class="fa-solid fa-award fa-2x mb-2"
+                    style="color: blue"
+                  ></i>
+                  <h2>Experience</h2>
+                  <p>2 years frontend devloper</p>
+                </div>
+                <div
+                  class="border m-3 px-md-5 py-md-3 p-2 rounded-4 m-md-5 shadow"
+                >
+                  <i
+                    class="fa-solid fa-user-graduate fa-2x mb-2"
+                    style="color: blue"
+                  ></i>
+                  <h2>Education</h2>
+                  <p>master stic -2020</p>
+                </div>
+              </div>
+              <div>
+                <p class="text-secondary text-center mt-3 mt-md-0 mx-3">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Veritatis, reprehenderit amet, qui delectus natus eligendi
+                  maxime suscipit ea id velit atque voluptate commodi iste quo
+                  saepe debitis, deserunt officia. Quidem! Lorem ipsum dolor sit
+                  amet consectetur, adipisicing elit. Quaerat atque molestias
+                  necessitatibus natus, voluptatum, temporibus nostrum amet illo
+                  dolore omnis.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="Experience my-5 w-75 mx-auto pt-5" id="Experience">
+      <div class="header text-center my-5">
+        <h4 class="text-secondary fs-5 fw-light">Explore My</h4>
+        <h1 class="fw-bolder lh-lg">Experience</h1>
+      </div>
+      <div class="container-fluid border-primary shadow p-md-5 p-3 rounded-4">
+        <div class="px-lg-5 mx-lg-5">
+          <div class="d-flex align-items-center">
+            <i class="fa-solid fa-circle-check fa-beat fa-2x me-3"></i>
+            <div class="text-center">
+              <h3 class="m-1">HTML</h3>
+              <p class="m-0">intermediale</p>
+            </div>
+            <div class="progress ms-5 w-75">
+              <div
+                class="progress-bar w-75"
+                role="progressbar"
+                aria-label="Basic example"
+                aria-valuenow="75"
+                aria-valuemin="0"
+                aria-valuemax="100"
+              ></div>
+            </div>
+          </div>
+          <hr />
+          <div class="d-flex align-items-center">
+            <i class="fa-solid fa-circle-check fa-beat fa-2x me-3"></i>
+            <div class="text-center">
+              <h3 class="m-1">CSS</h3>
+              <p class="m-0">intermediale</p>
+            </div>
+            <div class="progress w-75 ms-4">
+              <div
+                class="progress-bar w-75"
+                role="progressbar"
+                aria-label="Basic example"
+                aria-valuenow="75"
+                aria-valuemin="0"
+                aria-valuemax="100"
+              ></div>
+            </div>
+          </div>
+          <hr />
+          <div class="d-flex align-items-center">
+            <i class="fa-solid fa-circle-check fa-beat fa-2x me-3"></i>
+            <div class="text-center">
+              <h3 class="m-1">JavaScript</h3>
+              <p class="m-0">intermediale</p>
+            </div>
+            <div class="progress w-75 ms-4">
+              <div
+                class="progress-bar w-75"
+                role="progressbar"
+                aria-label="Basic example"
+                aria-valuenow="75"
+                aria-valuemin="0"
+                aria-valuemax="100"
+              ></div>
+            </div>
+          </div>
+          <hr />
+          <div class="d-flex align-items-center">
+            <i class="fa-solid fa-circle-check fa-beat fa-2x me-3"></i>
+            <div class="text-center">
+              <h3 class="m-1">Bootstrap</h3>
+              <p class="m-0">intermediale</p>
+            </div>
+            <div class="progress w-75 ms-4">
+              <div
+                class="progress-bar w-75"
+                role="progressbar"
+                aria-label="Basic example"
+                aria-valuenow="75"
+                aria-valuemin="0"
+                aria-valuemax="100"
+              ></div>
+            </div>
+          </div>
+          <hr />
+          <div class="d-flex align-items-center">
+            <i class="fa-solid fa-circle-check fa-beat fa-2x me-3"></i>
+            <div class="text-center">
+              <h3 class="m-1">React Js</h3>
+              <p class="m-0">intermediale</p>
+            </div>
+            <div class="progress w-75 ms-4">
+              <div
+                class="progress-bar w-75"
+                role="progressbar"
+                aria-label="Basic example"
+                aria-valuenow="75"
+                aria-valuemin="0"
+                aria-valuemax="100"
+              ></div>
+            </div>
+          </div>
+          <hr />
+          <div class="d-flex align-items-center mb-2">
+            <i class="fa-solid fa-circle-check fa-beat fa-2x me-3"></i>
+            <div class="text-center">
+              <h3 class="m-1">TypeScript</h3>
+              <p class="m-0">intermediale</p>
+            </div>
+            <div class="progress w-75 ms-4">
+              <div
+                class="progress-bar w-75"
+                role="progressbar"
+                aria-label="Basic example"
+                aria-valuenow="75"
+                aria-valuemin="0"
+                aria-valuemax="100"
+              ></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="projects my-5 w-75 mx-auto pt-5" id="Projects">
+      <div class="header text-center my-5">
+        <h4 class="text-secondary fs-6 fw-light">Browse My Recents</h4>
+        <h1 class="mt-2 fw-bolder lh-lg">Projects</h1>
+      </div>
+      <div class="row gap-5">
+        <div
+          class="project-card card col-12 col-sm-5 col-lg-4 p-4 rounded-5 shadow pointer-event"
+        >
+          <img
+            src="/assets/movies.jpg"
+            class="card-img-top rounded-5 shadow"
+            alt="..."
+            height="250"
+          />
+          <div class="card-body">
+            <h5 class="card-title text-center my-3 fs-3">Project 1</h5>
+            <div class="my-2 d-flex justify-content-center gap-2">
+              <div class="d-flex">
+                <a href="#" class="btn btn-outline-primary rounded-pill">
+                  <i class="fa-brands fa-github me-1"></i> Github</a
+                >
+              </div>
+
+              <div>
+                <a href="#" class="btn btn-outline-secondary rounded-pill">
+                  <i class="fa-solid fa-eye me-1"></i> Demo</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card col-12 col-sm-5 col-lg-3 p-4 rounded-5 shadow">
+          <img
+            src="/assets/cenima.jpg"
+            class="img card-img-top rounded-5 shadow"
+            alt="..."
+            height="250"
+          />
+          <div class="card-body">
+            <h5 class="card-title text-center my-3 fs-3">Project 02</h5>
+            <div class="my-2 d-flex justify-content-center gap-2">
+              <div class="d-flex">
+                <a href="#" class="btn btn-outline-primary rounded-pill">
+                  <i class="fa-brands fa-github me-1"></i> Github</a
+                >
+              </div>
+
+              <div>
+                <a href="#" class="btn btn-outline-secondary rounded-pill">
+                  <i class="fa-solid fa-eye me-1"></i> Demo</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card col-12 col-sm-5 col-lg-4 p-4 rounded-5 shadow">
+          <img
+            src="/assets/E-commerce.jpg"
+            class="card-img-top rounded-5 shadow"
+            alt="..."
+            height="250"
+          />
+          <div class="card-body">
+            <h5 class="card-title text-center my-3 fs-3">Project 03</h5>
+            <div class="my-2 d-flex justify-content-center gap-2">
+              <div class="d-flex">
+                <a href="#" class="btn btn-outline-primary rounded-pill">
+                  <i class="fa-brands fa-github me-1"></i> Github</a
+                >
+              </div>
+
+              <div>
+                <a href="#" class="btn btn-outline-secondary rounded-pill">
+                  <i class="fa-solid fa-eye me-1"></i> Demo</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="Contact my-5 w-75 mx-auto pt-5" id="Contact">
+      <div class="header text-center my-5">
+        <h4 class="text-secondary fs-6 fw-light">Get in Touch</h4>
+        <h1 class="mt-2 fw-bolder lh-lg">Contact</h1>
+      </div>
+      <div
+        class="d-flex p-3 rounded-4 w-100 w-sm-75 w-lg-50 flex-md-row flex-column mx-auto shadow justify-content-evenly"
+      >
+        <div class="d-flex align-items-center me-4 mb-3 mb-md-1">
+          <i class="fa-solid fa-envelope me-3 fa-2x"></i>
+          <h4>zeghmarhoussam@gmail.com</h4>
+        </div>
+        <div class="d-flex align-items-center">
+          <i class="fa-brands fa-linkedin fa-2x me-3"></i>
+          <h4>Linkedin</h4>
+        </div>
+      </div>
+    </section>
+
+    <footer class="p-2 text-center mt-5">
+      <p class="fs-6 fs-md-4 mb-0">
+        Copyright &#169; 2023 Houssam Zeghmar , All Right Reserved
+      </p>
+    </footer>
+    <script src="/script.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+  </body>
+</html>
